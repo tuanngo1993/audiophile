@@ -1,6 +1,8 @@
 <template>
   <div class="relative grid grid-cols-12 px-4 py-20 md:px-10 lg:px-40 bg-dark">
-    <div class="absolute top-0 h-1 w-30 bg-primary left-4 md:left-10 lg:left-40"></div>
+    <div
+      class="absolute top-0 h-1 -translate-x-1/2 w-30 bg-primary left-1/2 md:-translate-x-0 md:left-10 lg:left-40"
+    ></div>
     <div class="col-span-12 space-y-10 text-center lg:col-span-6 md:text-left">
       <img class="ml-auto mr-auto md:ml-0" src="~/assets/images/audiophile.svg" alt="logo" />
       <TheNavigation class="lg:hidden" />

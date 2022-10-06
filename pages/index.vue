@@ -2,7 +2,7 @@
   <div class="content">
     <div class="relative grid grid-cols-12 px-4 md:px-10 lg:px-40 bg-dark">
       <div
-        class="absolute z-10 col-span-12 space-y-5 text-center d:space-y-10 md:w-1/2 lg:w-auto lg:text-left lg:col-span-5 place-self-center lg:static"
+        class="absolute z-10 col-span-12 px-4 space-y-5 text-center lg:break-all lg:px-0 d:space-y-10 md:w-1/2 lg:w-auto lg:text-left lg:col-span-5 place-self-center lg:static"
       >
         <h5 class="tracking-widest text-opacity-50 color-white">NEW PRODUCT</h5>
         <h1 class="text-4xl font-bold tracking-wide uppercase md:text-6xl color-white">XX99 Mark II Headphones</h1>

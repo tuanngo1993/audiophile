@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev -o",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@iconify-json/mdi": "^1.1.33",
+    "@unocss/nuxt": "^0.45.26",
+    "@unocss/preset-icons": "^0.45.26",
+    "nuxt": "3.0.0-rc.11"
+  }
+}

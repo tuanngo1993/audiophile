@@ -2,7 +2,8 @@
   <div class="fixed top-0 left-0 z-50 w-full h-full bg-black bg-opacity-75 top-24" @click="mobileMenuIsOpen = false">
     <div class="bg-white">
       <div class="grid grid-cols-12 px-4 pt-16 pb-8 md:py-24 md:px-10 gap-y-16 md:gap-4 lg:px-40 justify-items-center">
-        <div
+        <NuxtLink
+          to="/headphones"
           class="relative w-full col-span-12 pt-16 pb-4 space-y-3 text-center text-gray-500 rounded-md md:col-span-4 bg-grey hover:color-primary"
         >
           <div class="absolute top-0 -translate-x-1/2 -translate-y-1/2 left-1/2">
@@ -11,8 +12,9 @@
           </div>
           <h5 class="text-lg font-bold tracking-wide uppercase color-black">HEADPHONES</h5>
           <p class="text-sm font-bold">SHOP <span class="color-primary">></span></p>
-        </div>
-        <div
+        </NuxtLink>
+        <NuxtLink
+          to="/speakers"
           class="relative w-full col-span-12 pt-16 pb-4 space-y-3 text-center text-gray-500 rounded-md md:col-span-4 bg-grey hover:color-primary"
         >
           <div class="absolute top-0 -translate-x-1/2 -translate-y-1/2 left-1/2">
@@ -21,8 +23,9 @@
           </div>
           <h5 class="text-lg font-bold tracking-wide uppercase color-black">SPEAKERS</h5>
           <p class="text-sm font-bold">SHOP <span class="color-primary">></span></p>
-        </div>
-        <div
+        </NuxtLink>
+        <NuxtLink
+          to="/earphones"
           class="relative w-full col-span-12 pt-16 pb-4 space-y-3 text-center text-gray-500 rounded-md md:col-span-4 bg-grey hover:color-primary"
         >
           <div class="absolute top-0 -translate-x-1/2 -translate-y-1/2 left-1/2">
@@ -31,7 +34,7 @@
           </div>
           <h5 class="text-lg font-bold tracking-wide uppercase color-black">EARPHONES</h5>
           <p class="text-sm font-bold">SHOP <span class="color-primary">></span></p>
-        </div>
+        </NuxtLink>
       </div>
     </div>
   </div>

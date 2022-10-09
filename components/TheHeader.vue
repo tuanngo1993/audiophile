@@ -1,6 +1,6 @@
 <template>
   <div class="grid items-center grid-cols-12 px-4 py-8 md:px-10 lg:px-40 bg-dark place-content-between">
-    <div class="flex col-span-6 gap-4 lg:col-span-2 justify-self-start">
+    <div class="flex items-center col-span-6 gap-4 lg:col-span-2 justify-self-start">
       <button @click="mobileMenuIsOpen = true" class="text-white lg:hidden">
         <div class="text-3xl i-mdi-hamburger-menu"></div>
       </button>

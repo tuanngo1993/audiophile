@@ -7,7 +7,7 @@
       <Teleport to="body">
         <TheMobileMenu v-if="mobileMenuIsOpen" />
       </Teleport>
-      <img src="~/assets/images/audiophile.svg" alt="logo" />
+      <NuxtLink to="/"><img src="~/assets/images/audiophile.svg" alt="logo" /></NuxtLink>
     </div>
     <TheNavigation class="hidden col-span-9 lg:block justify-self-center" />
     <div class="col-span-6 lg:col-span-1 color-white hover-color-primary justify-self-end">

@@ -4,16 +4,16 @@
       class="flex flex-col justify-center gap-8 text-sm font-bold tracking-wide color-white md:justify-start md:flex-row"
     >
       <li class="hover:color-primary">
-        <a href="">HOME</a>
+        <NuxtLink to="/">HOME</NuxtLink>
       </li>
       <li class="hover:color-primary">
-        <a href="">HEADPHONE</a>
+        <NuxtLink to="/headphones">HEADPHONES</NuxtLink>
       </li>
       <li class="hover:color-primary">
-        <a href="">SPEAKERS</a>
+        <NuxtLink to="/speakers">SPEAKERS</NuxtLink>
       </li>
       <li class="hover:color-primary">
-        <a href="">EARPHONES</a>
+        <NuxtLink to="/earphones">EARPHONES</NuxtLink>
       </li>
     </ul>
   </div>

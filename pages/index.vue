@@ -1,3 +1,5 @@
+<script setup lang="ts"></script>
+
 <template>
   <div class="content">
     <div class="relative grid grid-cols-12 px-4 md:px-10 lg:px-40 bg-dark">
@@ -127,7 +129,5 @@
     </div>
   </div>
 </template>
-
-<script setup lang="ts"></script>
 
 <style scoped></style>
